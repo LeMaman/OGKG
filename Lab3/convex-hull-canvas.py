@@ -38,7 +38,7 @@ for simplex in hull.simplices:
     plt.plot([points[simplex[0]][0], points[simplex[1]][0]],
              [points[simplex[0]][1], points[simplex[1]][1]], 'b-', label='Convex Hull' if simplex[0] == hull.simplices[0][0] else "")
 
-# Set Axes and Labels
+# Позначаємо осі
 plt.xlim(0, 960)
 plt.ylim(0, 540)
 plt.xlabel('X-axis')
@@ -46,7 +46,7 @@ plt.ylabel('Y-axis')
 plt.title('Convex Hull of Dataset')
 plt.legend()
 
-# Step 6: Save and Display the Image
+# Зберігаємо та виводимо зображення
 plt.savefig(output_image_path)
 plt.show()
 
