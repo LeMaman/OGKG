@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Визначаємо шляхи до файлів
-file_path = 'OGKG\Lab2\DS1.txt'
+file_path = 'DS1.txt'
 output_image_path = os.path.join(os.path.dirname(file_path), 'output_plot.png')
 
 # Зчитування координатів із датасету
